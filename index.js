@@ -7,4 +7,10 @@ ham.onclick = () => {
     closeIcon.style.display = 'block';
     links.style.display = 'block';
 };
+
+close.onclick = () => {
+    closeIcon.style.display = 'none';
+    ham.style.display = 'block';
+    links.style.display = 'none';
+  };
   

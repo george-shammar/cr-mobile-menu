@@ -8,9 +8,9 @@ ham.onclick = () => {
     links.style.display = 'block';
 };
 
-close.onclick = () => {
+closeIcon.onclick = () => {
     closeIcon.style.display = 'none';
     ham.style.display = 'block';
     links.style.display = 'none';
-  };
+};
   

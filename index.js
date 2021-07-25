@@ -1,0 +1,1 @@
+const ham = document.querySelector('.menu-bars');

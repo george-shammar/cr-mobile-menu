@@ -3,14 +3,13 @@ const closeIcon = document.querySelector('.x-bars');
 const links = document.querySelector('.desktop-nav');
 
 ham.onclick = () => {
-    ham.style.display = 'none';
-    closeIcon.style.display = 'block';
-    links.style.display = 'block';
+  ham.style.display = 'none';
+  closeIcon.style.display = 'block';
+  links.style.display = 'block';
 };
 
 closeIcon.onclick = () => {
-    closeIcon.style.display = 'none';
-    ham.style.display = 'block';
-    links.style.display = 'none';
+  closeIcon.style.display = 'none';
+  ham.style.display = 'block';
+  links.style.display = 'none';
 };
-  

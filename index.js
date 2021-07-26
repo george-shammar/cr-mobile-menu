@@ -18,4 +18,5 @@ const navLink = document.querySelector('#portfolio');
 navLink.onclick = () => {
   links.style.display = 'none';
   closeIcon.style.display = 'none';
+  ham.style.display = 'block';
 }

@@ -13,3 +13,5 @@ closeIcon.onclick = () => {
   ham.style.display = 'block';
   links.style.display = 'none';
 };
+
+const navLink = document.querySelector('.nav-link');

@@ -14,7 +14,7 @@ closeIcon.onclick = () => {
   links.style.display = 'none';
 };
 
-const navLink = document.querySelector('.nav-link');
+const navLink = document.querySelector('#portfolio');
 navLink.onclick = () => {
-  navLink.style.display = 'none';
+  links.style.display = 'none';
 }

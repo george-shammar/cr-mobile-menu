@@ -15,3 +15,6 @@ closeIcon.onclick = () => {
 };
 
 const navLink = document.querySelector('.nav-link');
+navLink.onclick = () => {
+  navLink.style.display = 'none';
+}

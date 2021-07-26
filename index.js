@@ -27,3 +27,10 @@ form.onclick = () => {
   closeIcon.style.display = 'none';
   ham.style.display = 'block';
 }
+
+const portfolio = document.querySelector('#portfolio');
+portfolio.onclick = () => {
+  links.style.display = 'none';
+  closeIcon.style.display = 'none';
+  ham.style.display = 'block';
+}
